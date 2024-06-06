@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right, rgb(165, 220, 165),rgb(51, 112, 132));
+}
+.container{
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container .day1,.day2,.day3{
+    margin: 20px;
+}
+.container h1{
+    text-align: center;
+}
+.container a{
+    text-decoration: none;
+    margin-right: 20px;
+    background: red;
+    font-size: larger;
+    border: 1px solid green;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px black;
+    color: rgb(229, 215, 215);
+
+    
+}
+.container .dis{
+    margin-left: 50px;
+    margin-top: 30px;
+}
